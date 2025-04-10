@@ -1,0 +1,42 @@
+.glow {
+    text-shadow: 0 0 10px #9f7aea, 0 0 20px #9f7aea, 0 0 30px #9f7aea;
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7, 0 0 40px #9333ea;
+  }
+  
+  .package-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(168, 85, 247, 0.6);
+  }
+  
+  .package-card ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.8;
+  }
+  
+  .package-btn {
+    background: linear-gradient(to right, #9333ea, #a855f7);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .package-btn:hover {
+    background: linear-gradient(to right, #a855f7, #9333ea);
+  }
+  
